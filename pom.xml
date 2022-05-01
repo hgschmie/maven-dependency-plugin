@@ -41,24 +41,21 @@ under the License.
   </prerequisites>
 
   <scm>
-    <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-dependency-plugin.git</connection>
-    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-dependency-plugin.git</developerConnection>
-    <url>https://github.com/apache/maven-dependency-plugin/tree/${project.scm.tag}</url>
+    <connection>scm:git:git@github.com:hgschmie/maven-dependency-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:hgschmie/maven-dependency-plugin.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
-  <issueManagement>
-    <system>JIRA</system>
-    <url>https://issues.apache.org/jira/browse/MDEP</url>
-  </issueManagement>
-  <ciManagement>
-    <system>Jenkins</system>
-    <url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-dependency-plugin/</url>
-  </ciManagement>
   <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/asf/maven/website/components/${maven.site.path}</url>
-    </site>
+    <snapshotRepository>
+        <id>ecotramp-snapshots</id>
+        <name>ecotramp snapshots</name>
+        <url>https://nexus.intermeta.com/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+        <id>ecotramp-releases</id>
+        <name>ecotramp releases</name>
+        <url>https://nexus.intermeta.com/repository/maven-releases/</url>
+    </repository>
   </distributionManagement>
 
   <contributors>
