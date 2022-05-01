@@ -30,7 +30,7 @@ under the License.
   </parent>
 
   <artifactId>maven-dependency-plugin</artifactId>
-  <version>3.3.1-ecotramp.1</version>
+  <version>3.3.1-ecotramp.2-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
   <name>Apache Maven Dependency Plugin</name>
@@ -43,7 +43,7 @@ under the License.
   <scm>
     <connection>scm:git:git@github.com:hgschmie/maven-dependency-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:hgschmie/maven-dependency-plugin.git</developerConnection>
-    <tag>maven-dependency-plugin-3.3.1-ecotramp.1</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <snapshotRepository>
@@ -90,7 +90,7 @@ under the License.
     <jettyVersion>9.4.45.v20220203</jettyVersion>
     <pluginTestingVersion>3.1.0</pluginTestingVersion>
     <javaVersion>8</javaVersion>
-    <project.build.outputTimestamp>2022-05-01T01:19:29Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2022-05-01T01:20:24Z</project.build.outputTimestamp>
     <slf4j.version>1.7.36</slf4j.version>
   </properties>
 
